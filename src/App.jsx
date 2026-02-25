@@ -2,7 +2,7 @@ import { useState, useMemo, useEffect, useCallback } from 'react'
 import { supabase } from './supabase'
 import * as XLSX from 'xlsx'
 
-// ── 비밀번호 (Vercel 환경변수 VITE_APP_PASSWORD 로 관리) ──────────────────────────────
+// ── 비밀번호 (Vercel 환경변수 VITE_APP_PASSWORD 로 관리) ───
 const APP_PASSWORD = import.meta.env.VITE_APP_PASSWORD || '2912'
 
 // ── 상수 ─────────────────────────────────────────────────────
