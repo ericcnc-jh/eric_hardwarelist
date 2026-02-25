@@ -562,7 +562,7 @@ export default function App() {
                         <td style={sx.td}><Badge text={item.manager||'미지정'} color={managerColor(item.manager)}/></td>
                         <td style={sx.td}><span style={{fontSize:12,color:C.muted}}>{item.note}</span></td>
                         <td style={sx.td}>
-                          <div style={{display:'flex',gap:5'}}>
+                          <div style={{display:'flex',gap:5}}>
                             <button style={{...sx.btnGhost('#F97316'),padding:'5px 10px',fontSize:11}} onClick={()=>setOutModal(item)}>출고</button>
                             <button style={sx.btnGhost()} onClick={()=>openEdit(item)}>수정</button>
                             <button style={sx.btnDanger} onClick={()=>askDelete(item)}>삭제</button>
